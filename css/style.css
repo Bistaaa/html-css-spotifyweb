@@ -3,3 +3,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    position: relative;
+}
+
+/*************************************************
+ UPPER
+*************************************************/
+
+#upper{
+    height: calc(100vh - 100px);
+    background-color: aqua;
+    display: flex;
+}
+
+#side{
+    height: 100%;
+    background-color: black;
+    width: 250px;
+}
+
+main{
+    width: calc(100% - 250px);
+    background-color: red;
+    position: relative;
+}
+
+#upgrade-overlay{
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+ FOOTER 
+*************************************************/
+
+footer{
+    background-color: rgba(40,40,40,255);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
