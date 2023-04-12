@@ -1,12 +1,24 @@
+
+
+/* Regole generali */
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: rgba(163,163,163,255);
 }
 
 .white{
     color: white;
+}
+
+.vertical-align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 /*************************************************
  UPPER
@@ -38,6 +50,59 @@ main{
     height: 90px;
     width: calc(100% - 230px);
 }
+
+
+
+
+/* Side */
+#side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#main-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-element{
+    margin-left: 20px;
+}
+
+#logo{
+    width: 55%;
+    margin: 20px;
+}
+
+.logo-size{
+    font-size: 22px;
+}
+
+#home{
+    gap: 10px;
+}
+
+#search{
+    gap: 10px;
+}
+
+#library{
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
