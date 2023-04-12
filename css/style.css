@@ -33,7 +33,6 @@ main{
 #upgrade-overlay{
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
-    position: relative;
     top: 0;
     right: 0;
     height: 90px;
