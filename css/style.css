@@ -54,7 +54,9 @@ main{
 
 
 
-/* Side */
+/****************** Side *********************/
+
+/* main nav */
 #side{
     display: flex;
     flex-direction: column;
@@ -64,7 +66,6 @@ main{
 #main-nav{
     display: flex;
     flex-direction: column;
-    gap: 10px;
     font-size: 13px;
     font-weight: 600;
 }
@@ -84,15 +85,69 @@ main{
 
 #home{
     gap: 10px;
+    margin-left: 0;
+    border-left: 3px solid rgba(173,255,47,255);
+    padding: 5px 0 5px 17px;
 }
 
 #search{
     gap: 10px;
+    padding: 5px 0;
 }
 
 #library{
     gap: 10px;
+    padding: 5px 0;
 }
+
+
+
+/* new playlist */
+
+#new-playlist{
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#create-playlist{
+    margin: 10px 0;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#new-playlist-logo{
+    font-size: 40px;
+}
+
+
+
+/* playlist names */
+
+#playlist-names{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
