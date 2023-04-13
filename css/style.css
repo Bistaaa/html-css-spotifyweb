@@ -287,7 +287,62 @@ footer{
     margin-right: 10px;
 }
 
+
+
+
 /* player */
+
+#player{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    width: calc(100% / 3);
+}
+
+#upper-plyer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 17px;
+}
+
+#play-button{
+    font-size: 28px;
+    margin: 0 15px;
+}
+
+#bottom-player{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+#grey-player-bar{
+    background-color: rgba(90,90,90,255);
+    height: 4px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#white-player-bar{
+    background-color: rgba(193,193,193,255);
+    height: 4px;
+    width: 9%;
+    border-radius: 5px;
+}
+
+.timer{
+    font-size: 10px;
+    font-weight: 600;
+}
+
 
 
 
