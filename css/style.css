@@ -242,6 +242,17 @@ footer{
     align-items: center;
 }
 
+.grey-bar{
+    background-color: rgba(90,90,90,255);
+    height: 4px;
+    border-radius: 5px;
+}
+
+.white-bar{
+    background-color: rgba(193,193,193,255);
+    height: 4px;
+    border-radius: 5px;
+}
 
 
 
@@ -324,18 +335,12 @@ footer{
     width: 100%;
 }
 
-#grey-player-bar{
-    background-color: rgba(90,90,90,255);
-    height: 4px;
+#full-song{
     width: 100%;
-    border-radius: 5px;
 }
 
-#white-player-bar{
-    background-color: rgba(193,193,193,255);
-    height: 4px;
+#actual-part{
     width: 9%;
-    border-radius: 5px;
 }
 
 .timer{
@@ -347,18 +352,22 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
 /* right footer */
 
+#right-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+}
 
+#volume{
+    width: 100px;
+    margin-right: 10px;
+}
 
-
-
-
+#actual-volume{
+    width: 25%;
+}
