@@ -39,7 +39,6 @@
 
 main{
     width: calc(100% - 230px);
-    background-color: rgba(20,25,34,255);
 }
 
 #upgrade-overlay{
@@ -64,7 +63,7 @@ main{
     position: relative;
 }
 
-#main-nav{
+#side-nav{
     display: flex;
     flex-direction: column;
     font-size: 13px;
@@ -188,20 +187,7 @@ h3{
 
 /****************** Main *********************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Upgrade Overlay */
+/* upgrade overlay */
 
 .upgrade-button{
     position: absolute;
@@ -214,6 +200,36 @@ h3{
     font-weight: 600;
     font-size: 12px;
 }
+
+
+
+/* screen container */
+
+#screen-container{
+    background-color: rgba(20,25,34,255);
+    padding: 100px 15px 50px;
+}
+
+#main-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#in-evidence hr{
+    width: 40%;
+    margin: 4px auto 0;
+    height: 2px;
+    border: none;
+    background-color: rgba(173,255,47,255);
+}
+
+
+
 
 
 
