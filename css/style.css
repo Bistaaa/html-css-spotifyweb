@@ -42,6 +42,7 @@
 
 main{
     width: calc(100% - 230px);
+    position: relative;
 }
 
 #upgrade-overlay{
@@ -58,12 +59,14 @@ main{
 
 /****************** Side *********************/
 
-/* main nav */
+/* side nav */
 #side{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #side-nav{
@@ -204,15 +207,20 @@ h3{
     font-size: 12px;
 }
 
-
-
-/* main nav */
-
 #screen-container{
     background-color: rgba(20,25,34,255);
     padding: 100px 15px 140px;
     overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 230px);
 }
+
+
+
+
+/* main nav */
 
 #main-nav{
     display: flex;
