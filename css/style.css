@@ -203,11 +203,12 @@ h3{
 
 
 
-/* screen container */
+/* main nav */
 
 #screen-container{
     background-color: rgba(20,25,34,255);
     padding: 100px 15px 50px;
+    overflow-y: scroll;
 }
 
 #main-nav{
@@ -227,6 +228,31 @@ h3{
     border: none;
     background-color: rgba(173,255,47,255);
 }
+
+
+
+
+
+/* Recently played */
+
+#container-recently-played{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cover-container{
+    max-width: calc(100% / 6);
+}
+
+.cover-img{
+    width: 100%;
+    background-size: cover;
+}
+
+
+
 
 
 
