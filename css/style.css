@@ -27,7 +27,6 @@
 /* Regole generali */
 #upper{
     height: calc(100vh - 90px);
-    background-color: aqua;
     display: flex;
 }
 
@@ -243,7 +242,9 @@ h3{
 }
 
 .cover-container{
-    max-width: calc(100% / 6);
+    width: calc(100% / 6);
+    text-align: center;
+    margin-top: 30px;
 }
 
 .cover-img{
@@ -251,10 +252,15 @@ h3{
     background-size: cover;
 }
 
+.song-name{
+    font-weight: 700;
+    margin: 10px 0;
+}
 
-
-
-
+.cover-container p:last-child{
+    font-size: 12px;
+    font-weight: 700;
+}
 
 
 
